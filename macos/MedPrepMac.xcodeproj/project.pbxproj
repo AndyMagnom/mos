@@ -1,0 +1,470 @@
+// !$*UTF8*$!
+{
+	"archiveVersion" = "1";
+	"classes" = {
+	};
+	"objectVersion" = "56";
+	"objects" = {
+		"57B2FD25DB4E911B94EAD376" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "sourcecode.swift";
+			"path" = "MedPrepMac/AppDelegate.swift";
+			"sourceTree" = "<group>";
+		};
+		"56E34E65576E0D61A997AF37" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "57B2FD25DB4E911B94EAD376";
+		};
+		"17547622082ABEFF6FA7ADC3" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "sourcecode.swift";
+			"path" = "MedPrepMac/BrowserController.swift";
+			"sourceTree" = "<group>";
+		};
+		"739DCAF6F069D47C1C42A5CC" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "17547622082ABEFF6FA7ADC3";
+		};
+		"C42DB76496BEFF7DBF4B1C6F" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "sourcecode.swift";
+			"path" = "MedPrepMac/MediaResourceLoader.swift";
+			"sourceTree" = "<group>";
+		};
+		"E4819AEBC815A0DB2308E75B" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "C42DB76496BEFF7DBF4B1C6F";
+		};
+		"0F7CAA998F79F46F25B462C4" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "sourcecode.swift";
+			"path" = "MedPrepMac/MediaViewer.swift";
+			"sourceTree" = "<group>";
+		};
+		"B9027406F3F4C5F4379E15DA" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "0F7CAA998F79F46F25B462C4";
+		};
+		"E6B06E11EE56082FFA8CA7BA" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "sourcecode.swift";
+			"path" = "MedPrepMac/ProtectedMediaView.swift";
+			"sourceTree" = "<group>";
+		};
+		"FE59D741AEC6B0279FCD3B75" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "E6B06E11EE56082FFA8CA7BA";
+		};
+		"5CA96F0510C4E382F771DB37" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "sourcecode.swift";
+			"path" = "MedPrepMac/SecurityGate.swift";
+			"sourceTree" = "<group>";
+		};
+		"073357D517A8A956E1B363FF" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "5CA96F0510C4E382F771DB37";
+		};
+		"7FBD41A5A8612FDB874C4370" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "sourcecode.swift";
+			"path" = "../shared/AppConfig.swift";
+			"sourceTree" = "<group>";
+		};
+		"33E2465BF1E0A8D6BBD36CCC" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "7FBD41A5A8612FDB874C4370";
+		};
+		"6DCF4B0E75D1F35CCA819471" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "sourcecode.swift";
+			"path" = "../shared/DeviceIdentity.swift";
+			"sourceTree" = "<group>";
+		};
+		"13EB224FC869026E420A041C" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "6DCF4B0E75D1F35CCA819471";
+		};
+		"10AF9FF7EF2A23B2150A3AA7" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "sourcecode.swift";
+			"path" = "../shared/PinnedTrust.swift";
+			"sourceTree" = "<group>";
+		};
+		"8B8F6E6BB51C09B2887B230D" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "10AF9FF7EF2A23B2150A3AA7";
+		};
+		"BE70BABE4E9F587C08C1B1DC" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "folder";
+			"path" = "MedPrepMac/Resources/splash";
+			"sourceTree" = "<group>";
+		};
+		"BB950E6C3C9B9617B7F45EDF" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "BE70BABE4E9F587C08C1B1DC";
+		};
+		"B25FB4B41431E4274296DDE1" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "folder";
+			"path" = "MedPrepMac/Resources/Branding";
+			"sourceTree" = "<group>";
+		};
+		"57972C23C83AA4BDDACD1B1B" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "B25FB4B41431E4274296DDE1";
+		};
+		"5C1FC4FC68B54254DE399F84" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "image.png";
+			"path" = "MedPrepMac/Resources/app_logo.png";
+			"sourceTree" = "<group>";
+		};
+		"238BF360078AB06A0AFD4E6A" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "5C1FC4FC68B54254DE399F84";
+		};
+		"1137FAA5E4489E1564B12464" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "image.icns";
+			"path" = "MedPrepMac/Resources/AppIcon.icns";
+			"sourceTree" = "<group>";
+		};
+		"3E42CAAA4F9EB48D99B1EF5F" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "1137FAA5E4489E1564B12464";
+		};
+		"0B1A67E3E5D29243C2DE984C" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "text.xml";
+			"path" = "MedPrepMac/Resources/PrivacyInfo.xcprivacy";
+			"sourceTree" = "<group>";
+		};
+		"35EDA747051ADEC38E472F8F" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "0B1A67E3E5D29243C2DE984C";
+		};
+		"59343471EE7CECDEC25F6829" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "sourcecode.swift";
+			"path" = "MedPrepMacTests/SecurityTests.swift";
+			"sourceTree" = "<group>";
+		};
+		"A751F0455448EF9DCDC75AAA" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "59343471EE7CECDEC25F6829";
+		};
+		"FAFBBB42AA240F954ABB3A3B" = {
+			"isa" = "PBXFileReference";
+			"explicitFileType" = "wrapper.application";
+			"path" = "MedPrepMac.app";
+			"sourceTree" = "BUILT_PRODUCTS_DIR";
+			"includeInIndex" = "0";
+		};
+		"248BF2FA2A85B3E71774690E" = {
+			"isa" = "PBXFileReference";
+			"explicitFileType" = "wrapper.cfbundle";
+			"path" = "MedPrepMacTests.xctest";
+			"sourceTree" = "BUILT_PRODUCTS_DIR";
+			"includeInIndex" = "0";
+		};
+		"B349325B75D1F09E7841B0CC" = {
+			"isa" = "PBXGroup";
+			"children" = (
+				"FAFBBB42AA240F954ABB3A3B",
+				"248BF2FA2A85B3E71774690E",
+			);
+			"name" = "Products";
+			"sourceTree" = "<group>";
+		};
+		"CB94A46F3B52B43340CA9D0D" = {
+			"isa" = "PBXGroup";
+			"children" = (
+				"57B2FD25DB4E911B94EAD376",
+				"17547622082ABEFF6FA7ADC3",
+				"C42DB76496BEFF7DBF4B1C6F",
+				"0F7CAA998F79F46F25B462C4",
+				"E6B06E11EE56082FFA8CA7BA",
+				"5CA96F0510C4E382F771DB37",
+				"7FBD41A5A8612FDB874C4370",
+				"6DCF4B0E75D1F35CCA819471",
+				"10AF9FF7EF2A23B2150A3AA7",
+				"BE70BABE4E9F587C08C1B1DC",
+				"B25FB4B41431E4274296DDE1",
+				"5C1FC4FC68B54254DE399F84",
+				"1137FAA5E4489E1564B12464",
+				"0B1A67E3E5D29243C2DE984C",
+				"59343471EE7CECDEC25F6829",
+				"B349325B75D1F09E7841B0CC",
+			);
+			"sourceTree" = "<group>";
+		};
+		"2FAF7FFC0A8114315CF4CFE8" = {
+			"isa" = "PBXSourcesBuildPhase";
+			"buildActionMask" = "2147483647";
+			"files" = (
+				"56E34E65576E0D61A997AF37",
+				"739DCAF6F069D47C1C42A5CC",
+				"E4819AEBC815A0DB2308E75B",
+				"B9027406F3F4C5F4379E15DA",
+				"FE59D741AEC6B0279FCD3B75",
+				"073357D517A8A956E1B363FF",
+				"33E2465BF1E0A8D6BBD36CCC",
+				"13EB224FC869026E420A041C",
+				"8B8F6E6BB51C09B2887B230D",
+			);
+			"runOnlyForDeploymentPostprocessing" = "0";
+		};
+		"4C5F09DF930736F79B6B434F" = {
+			"isa" = "PBXResourcesBuildPhase";
+			"buildActionMask" = "2147483647";
+			"files" = (
+				"BB950E6C3C9B9617B7F45EDF",
+				"57972C23C83AA4BDDACD1B1B",
+				"238BF360078AB06A0AFD4E6A",
+				"3E42CAAA4F9EB48D99B1EF5F",
+				"35EDA747051ADEC38E472F8F",
+			);
+			"runOnlyForDeploymentPostprocessing" = "0";
+		};
+		"1150D7375103980B6C21BEDF" = {
+			"isa" = "PBXFrameworksBuildPhase";
+			"buildActionMask" = "2147483647";
+			"files" = (
+			);
+			"runOnlyForDeploymentPostprocessing" = "0";
+		};
+		"47A71490F801DC2F7E364FFF" = {
+			"isa" = "PBXSourcesBuildPhase";
+			"buildActionMask" = "2147483647";
+			"files" = (
+				"A751F0455448EF9DCDC75AAA",
+			);
+			"runOnlyForDeploymentPostprocessing" = "0";
+		};
+		"4B40152963976CF0D96CACE7" = {
+			"isa" = "PBXResourcesBuildPhase";
+			"buildActionMask" = "2147483647";
+			"files" = (
+			);
+			"runOnlyForDeploymentPostprocessing" = "0";
+		};
+		"90DF51AE920FA0CC381062C3" = {
+			"isa" = "PBXFrameworksBuildPhase";
+			"buildActionMask" = "2147483647";
+			"files" = (
+			);
+			"runOnlyForDeploymentPostprocessing" = "0";
+		};
+		"7D3B367CD203021FE90C6547" = {
+			"isa" = "XCBuildConfiguration";
+			"buildSettings" = {
+				"SDKROOT" = "macosx";
+				"MACOSX_DEPLOYMENT_TARGET" = "13.0";
+				"SWIFT_VERSION" = "5.0";
+				"CLANG_ENABLE_MODULES" = "YES";
+				"CLANG_ENABLE_OBJC_ARC" = "YES";
+				"SWIFT_STRICT_CONCURRENCY" = "targeted";
+				"ENABLE_USER_SCRIPT_SANDBOXING" = "YES";
+				"SWIFT_OPTIMIZATION_LEVEL" = "-Onone";
+				"DEBUG_INFORMATION_FORMAT" = "dwarf";
+				"ENABLE_TESTABILITY" = "YES";
+			};
+			"name" = "Debug";
+		};
+		"77168FCDDF942C09B3D0E769" = {
+			"isa" = "XCBuildConfiguration";
+			"buildSettings" = {
+				"PRODUCT_BUNDLE_IDENTIFIER" = "com.med.prep.mac";
+				"PRODUCT_NAME" = "$(TARGET_NAME)";
+				"INFOPLIST_FILE" = "MedPrepMac/Info.plist";
+				"CODE_SIGN_ENTITLEMENTS" = "MedPrepMac/MedPrepMac.entitlements";
+				"CODE_SIGN_STYLE" = "Automatic";
+				"MARKETING_VERSION" = "2.2.1";
+				"CURRENT_PROJECT_VERSION" = "1";
+				"APP_ATTEST_ENVIRONMENT" = "development";
+				"ENABLE_HARDENED_RUNTIME" = "YES";
+				"CODE_SIGN_INJECT_BASE_ENTITLEMENTS" = "NO";
+				"STRIP_INSTALLED_PRODUCT" = "YES";
+				"STRIP_SWIFT_SYMBOLS" = "YES";
+				"COPY_PHASE_STRIP" = "YES";
+				"LD_RUNPATH_SEARCH_PATHS" = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+			};
+			"name" = "Debug";
+		};
+		"44EE6D855F1AAB1FE3C28149" = {
+			"isa" = "XCBuildConfiguration";
+			"buildSettings" = {
+				"PRODUCT_BUNDLE_IDENTIFIER" = "com.med.prep.mac.tests";
+				"PRODUCT_NAME" = "$(TARGET_NAME)";
+				"GENERATE_INFOPLIST_FILE" = "YES";
+				"CODE_SIGN_STYLE" = "Automatic";
+				"TEST_HOST" = "$(BUILT_PRODUCTS_DIR)/MedPrepMac.app/Contents/MacOS/MedPrepMac";
+				"BUNDLE_LOADER" = "$(TEST_HOST)";
+			};
+			"name" = "Debug";
+		};
+		"205EC703BBEB7187F7F66B3B" = {
+			"isa" = "XCBuildConfiguration";
+			"buildSettings" = {
+				"SDKROOT" = "macosx";
+				"MACOSX_DEPLOYMENT_TARGET" = "13.0";
+				"SWIFT_VERSION" = "5.0";
+				"CLANG_ENABLE_MODULES" = "YES";
+				"CLANG_ENABLE_OBJC_ARC" = "YES";
+				"SWIFT_STRICT_CONCURRENCY" = "targeted";
+				"ENABLE_USER_SCRIPT_SANDBOXING" = "YES";
+				"SWIFT_OPTIMIZATION_LEVEL" = "-O";
+				"DEBUG_INFORMATION_FORMAT" = "dwarf-with-dsym";
+				"ENABLE_TESTABILITY" = "NO";
+			};
+			"name" = "Release";
+		};
+		"1B8F2A48DCF56011B2D19FBE" = {
+			"isa" = "XCBuildConfiguration";
+			"buildSettings" = {
+				"PRODUCT_BUNDLE_IDENTIFIER" = "com.med.prep.mac";
+				"PRODUCT_NAME" = "$(TARGET_NAME)";
+				"INFOPLIST_FILE" = "MedPrepMac/Info.plist";
+				"CODE_SIGN_ENTITLEMENTS" = "MedPrepMac/MedPrepMac.entitlements";
+				"CODE_SIGN_STYLE" = "Automatic";
+				"MARKETING_VERSION" = "2.2.1";
+				"CURRENT_PROJECT_VERSION" = "1";
+				"APP_ATTEST_ENVIRONMENT" = "production";
+				"ENABLE_HARDENED_RUNTIME" = "YES";
+				"CODE_SIGN_INJECT_BASE_ENTITLEMENTS" = "NO";
+				"STRIP_INSTALLED_PRODUCT" = "YES";
+				"STRIP_SWIFT_SYMBOLS" = "YES";
+				"COPY_PHASE_STRIP" = "YES";
+				"LD_RUNPATH_SEARCH_PATHS" = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+			};
+			"name" = "Release";
+		};
+		"C4FDBC720CA36C695B44504A" = {
+			"isa" = "XCBuildConfiguration";
+			"buildSettings" = {
+				"PRODUCT_BUNDLE_IDENTIFIER" = "com.med.prep.mac.tests";
+				"PRODUCT_NAME" = "$(TARGET_NAME)";
+				"GENERATE_INFOPLIST_FILE" = "YES";
+				"CODE_SIGN_STYLE" = "Automatic";
+				"TEST_HOST" = "$(BUILT_PRODUCTS_DIR)/MedPrepMac.app/Contents/MacOS/MedPrepMac";
+				"BUNDLE_LOADER" = "$(TEST_HOST)";
+			};
+			"name" = "Release";
+		};
+		"E20758FE3B62766393AA1E06" = {
+			"isa" = "XCConfigurationList";
+			"buildConfigurations" = (
+				"77168FCDDF942C09B3D0E769",
+				"1B8F2A48DCF56011B2D19FBE",
+			);
+			"defaultConfigurationIsVisible" = "0";
+			"defaultConfigurationName" = "Release";
+		};
+		"F68CC0EFE5DC692B4768E77E" = {
+			"isa" = "PBXNativeTarget";
+			"buildConfigurationList" = "E20758FE3B62766393AA1E06";
+			"buildPhases" = (
+				"2FAF7FFC0A8114315CF4CFE8",
+				"1150D7375103980B6C21BEDF",
+				"4C5F09DF930736F79B6B434F",
+			);
+			"buildRules" = (
+			);
+			"dependencies" = (
+			);
+			"name" = "MedPrepMac";
+			"productName" = "MedPrepMac";
+			"productReference" = "FAFBBB42AA240F954ABB3A3B";
+			"productType" = "com.apple.product-type.application";
+		};
+		"5E1ED019BEDC27B94C8EAE4C" = {
+			"isa" = "PBXContainerItemProxy";
+			"containerPortal" = "5B40DD8FA35441F5C0354B10";
+			"proxyType" = "1";
+			"remoteGlobalIDString" = "F68CC0EFE5DC692B4768E77E";
+			"remoteInfo" = "MedPrepMac";
+		};
+		"0772E22E989CACDDD009F09C" = {
+			"isa" = "PBXTargetDependency";
+			"target" = "F68CC0EFE5DC692B4768E77E";
+			"targetProxy" = "5E1ED019BEDC27B94C8EAE4C";
+		};
+		"3C818AC290254CE796CB8234" = {
+			"isa" = "XCConfigurationList";
+			"buildConfigurations" = (
+				"44EE6D855F1AAB1FE3C28149",
+				"C4FDBC720CA36C695B44504A",
+			);
+			"defaultConfigurationIsVisible" = "0";
+			"defaultConfigurationName" = "Release";
+		};
+		"BE4D4F3DB6A37CFE87A505C1" = {
+			"isa" = "PBXNativeTarget";
+			"buildConfigurationList" = "3C818AC290254CE796CB8234";
+			"buildPhases" = (
+				"47A71490F801DC2F7E364FFF",
+				"90DF51AE920FA0CC381062C3",
+				"4B40152963976CF0D96CACE7",
+			);
+			"buildRules" = (
+			);
+			"dependencies" = (
+				"0772E22E989CACDDD009F09C",
+			);
+			"name" = "MedPrepMacTests";
+			"productName" = "MedPrepMacTests";
+			"productReference" = "248BF2FA2A85B3E71774690E";
+			"productType" = "com.apple.product-type.bundle.unit-test";
+		};
+		"3F37481473A29485D2834D86" = {
+			"isa" = "XCConfigurationList";
+			"buildConfigurations" = (
+				"7D3B367CD203021FE90C6547",
+				"205EC703BBEB7187F7F66B3B",
+			);
+			"defaultConfigurationIsVisible" = "0";
+			"defaultConfigurationName" = "Release";
+		};
+		"5B40DD8FA35441F5C0354B10" = {
+			"isa" = "PBXProject";
+			"attributes" = {
+				"LastUpgradeCheck" = "2700";
+				"BuildIndependentTargetsInParallel" = "YES";
+				"TargetAttributes" = {
+					"F68CC0EFE5DC692B4768E77E" = {
+						"CreatedOnToolsVersion" = "13.0";
+					};
+					"BE4D4F3DB6A37CFE87A505C1" = {
+						"CreatedOnToolsVersion" = "13.0";
+						"TestTargetID" = "F68CC0EFE5DC692B4768E77E";
+					};
+				};
+			};
+			"buildConfigurationList" = "3F37481473A29485D2834D86";
+			"compatibilityVersion" = "Xcode 14.0";
+			"developmentRegion" = "en";
+			"hasScannedForEncodings" = "0";
+			"knownRegions" = (
+				"en",
+				"Base",
+			);
+			"mainGroup" = "CB94A46F3B52B43340CA9D0D";
+			"productRefGroup" = "B349325B75D1F09E7841B0CC";
+			"projectDirPath" = "";
+			"projectRoot" = "";
+			"targets" = (
+				"F68CC0EFE5DC692B4768E77E",
+				"BE4D4F3DB6A37CFE87A505C1",
+			);
+		};
+	};
+	"rootObject" = "5B40DD8FA35441F5C0354B10";
+}
